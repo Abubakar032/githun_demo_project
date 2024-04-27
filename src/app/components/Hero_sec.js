@@ -22,7 +22,7 @@ const Hero_section = () => {
 <h1 className={`${style.h1} mt-5`}>Scalable AI.</h1>
 <p className="mt-5">Bring blockchain to the people. Solana supports experiences for power users, new consumers, and everyone in between.</p>
 <div className="flex  mt-5 text-center justify-around">
-  <Button bg="bg-gradient-button" text="Connect wallet" />
+  <Button bg="bg-purple-600" text="Connect wallet" />
   <Button border="border" text="Read docs" />
 </div>
         
