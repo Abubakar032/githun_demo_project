@@ -3,7 +3,7 @@ import Cart from "./Cart"
 
 const Cart_section = () => {
   return (
-    <div  className="border mt-20 lg:mt-0 h-[90vh] md:h-auto lg:h-auto w-full relative">
+    <div  className=" mt-20 lg:mt-0 h-[90vh] md:h-[50vh] lg:h-auto w-full relative">
       <img src="images/cart_image.png" alt="cart" className=" h-full w-full" />
       <div className=" absolute top-0">
       
