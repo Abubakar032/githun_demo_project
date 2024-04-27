@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className=' bg-primary'>
+    <div className=' bg-primary  mt-48 lg:mt-0'>
     <div className='  grid lg:grid-cols-2 gap-32 lg:w-[75%] w-[90%] m-auto py-10'>
       <div>
         <img src="images/footer.png" alt="footer" />
