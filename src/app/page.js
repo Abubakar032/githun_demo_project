@@ -1,4 +1,5 @@
 import Button from "./components/Button"
+import Images_section from "./components/Images_section"
 import { style } from "./components/Style"
 
 const Home = () => {
@@ -28,7 +29,8 @@ const Home = () => {
         
        </div>
     </div>
-    <h1>hello</h1>
+    <Images_section />
+
     </>
 
   )
