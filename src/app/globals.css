@@ -14,3 +14,8 @@
     -webkit-text-fill-color: transparent;
   }
   
+
+  .bg-gradient-button {
+    background: linear-gradient(90deg, #FF1CF7 0%, #00F0FF 100%);
+  }
+  
