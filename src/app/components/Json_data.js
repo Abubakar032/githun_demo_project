@@ -7,3 +7,29 @@ export const images=[
     {id:5, url:"images/jump.png"}, 
     {id:6, url:"images/magic.png"}, 
 ]
+
+
+export const cart_data=[
+    {
+        id:0,
+        url:"images/vector.png",
+        heading:"Connect Wallet",
+        text:"  Step into the decentralized realm – connect your wallet and embark on a journey where your assets are at your fingertips.",
+        style:" lg:mt-20 mt-5"
+    },
+    {
+        id:1,
+        url:"images/Vector (1).png",
+        heading:"Connect Wallet",
+        text:"  Step into the decentralized realm – connect your wallet and embark on a journey where your assets are at your fingertips.",
+        style:" mt-5"
+    },
+    {
+        id:2,
+        url:"images/Group 29.jpg",
+        heading:"Connect Wallet",
+        text:"  Step into the decentralized realm – connect your wallet and embark on a journey where your assets are at your fingertips.",
+        style:" lg:mt-28 mt-5"
+    }
+
+]

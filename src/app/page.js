@@ -1,39 +1,17 @@
-import Button from "./components/Button"
+import Cart_section from "./components/Cart_section"
+import Hero_section from "./components/Hero_sec"
 import Images_section from "./components/Images_section"
-import { style } from "./components/Style"
+import Transfer_data from "./components/Transfer_data"
 
-const Home = () => {
+const page = () => {
   return (
-    <>   
-     <div className="grid grid-cols-2  lg:gap-80 relative   h-[574px]  mt-16  ">
-      <div>
-        <img src="images/h_left.png" alt="left" className=" w-full h-[80%]" />
-      </div>
-      
-      <div>
-        <img src="images/h_right.png" alt="right" className="w-full h-[90%]" />
-      </div>
-
-
-      <div className='  absolute w-[90%]  md:w-[60%] text-center lg:w-[40%] m-auto place-self-center '>
-      <h1 className={`${style.h1} font-inter`}>
-  A Fast <span className="text-span  font-clash-grotesk mt-5 lg:mt-0">Blockchain</span>
-</h1>
-
-<h1 className={`${style.h1} mt-5`}>Scalable AI.</h1>
-<p className="mt-5">Bring blockchain to the people. Solana supports experiences for power users, new consumers, and everyone in between.</p>
-<div className="flex  mt-5 text-center justify-around">
-  <Button bg="bg-purple-600" text="Connect wallet" />
-  <Button border="border" text="Read docs" />
-</div>
-        
-       </div>
-    </div>
-    <Images_section />
-
+    <>  
+    <Hero_section />
+    <Images_section /> 
+    <Transfer_data />
+    <Cart_section />   
     </>
-
   )
 }
 
-export default Home
+export default page

@@ -7,3 +7,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Clash+Grotesk:wght@400;500;600;700&display=swap');
 
+
+.text-linear {
+    background: linear-gradient(90deg, #FF1CF7 0%, #00F0FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
