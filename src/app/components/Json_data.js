@@ -12,7 +12,7 @@ export const images=[
 export const cart_data=[
     {
         id:0,
-        url:"images/vector.png",
+        url:"images/Vector.png",
         heading:"Connect Wallet",
         text:"  Step into the decentralized realm – connect your wallet and embark on a journey where your assets are at your fingertips.",
         style:" lg:mt-20 mt-5"
